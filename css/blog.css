@@ -1,0 +1,636 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+menu {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+}
+menu .menukiri {
+    margin-left: 15px;
+}
+menu .menukiri img{
+    width: 40px; 
+    height: 40px; 
+    margin: 0 0 0 35px; 
+    float: left; 
+    clip-path: circle(50%);
+}
+menu .menukiri h2 {
+    display: inline; 
+    margin-top: 5px; 
+    float: left; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+Menu nav {
+    float: left; 
+    font-size: 20px; 
+    color: white; 
+    border-left: 1px solid red;;
+    margin-top: 0px; 
+    margin-left: 45px; 
+    position: relative; 
+    height: 50px; 
+    line-height: 50px;
+}
+menu nav ul li {
+    float: left; 
+    list-style: none; 
+    background: white;
+}
+menu nav ul li a:hover {
+    color: red;
+}
+menu nav ul li a {
+    margin-left: 15px; 
+    text-decoration: none; 
+    padding: 3px 15px; 
+    color: black;
+    font-size: 18px;
+}
+menu nav ul li ul {
+    display: none;
+}
+menu nav ul li:hover > ul {
+    display: block; 
+    background-color: white;
+}
+menu nav ul li ul {
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+}
+menu nav ul li ul li {
+    float: none;
+    position: relative;
+ }
+menu nav ul li ul li a:hover {
+    color: black;
+}
+menu nav ul ul ul {
+    left: 100%; 
+    top: 20px; 
+    width: 200px;
+}
+menu .menu_kanan {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    height: 52px;
+    line-height: 52px;
+    float: right;
+}
+menu .menu_kanan i {
+    margin-right: 10px;
+}
+menu .menu_kanan a  {
+    font-size: 18px;
+    margin-right: 50px;
+    padding-right: 50px;
+    /*border-right: 1px solid red;*/
+}
+menu .menu_kanan .menu_infol {
+    /*border: 1px solid black;*/
+}
+menu .menu_kanan .menu_infol .fi-sr-envelope {
+    padding-right: 50px;
+}
+menu .menu_kanan .menu_infol .fi-rr-search {
+    padding-left: 50px;
+    margin-right: 50px;
+    /*border-left: 1px solid red;*/
+}
+
+.cont_utama {
+    background-color: whitesmoke;
+}
+article .cntainer {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article .tlsan {
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin:50px auto auto auto;
+}
+article .cntainer .tlsan h1 {
+    text-align: center;
+    font-family: "Nothing You Could Do", cursive;
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+article .container_blog {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    overflow: hidden;
+}
+article .container_blog .blog_isi {
+    width: 1100px;
+    margin: auto;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kiri {
+    float: left;
+    width: 650px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+article .container_blog .blog_isi .blog_kiri .isi {
+    width: 650px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto {
+    width: 650px;
+    height: 450px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto img {
+    width: 650px;
+    height: 400px;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto .b_tgl {
+    background-color: red;
+    overflow: hidden;
+    padding: 13px 30px;
+    border-radius: 5px;
+    width: 60px;
+    position: absolute;
+    display: block;
+    bottom: 3%;
+    left: 5%;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto .b_tgl a {
+    text-decoration: none;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto .b_tgl .tanggal {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 600px;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan1 h2 {
+    margin-bottom: 10px;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan1 p {
+    margin-bottom: 10px;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 {
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kiri {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kanan {
+    display: inline-block;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kiri a {
+    text-decoration: none;
+    color: black;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kanan a {
+    text-decoration: none;
+    color: black;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto .b_tgl:hover {
+    background-color: transparent;
+}
+article .container_blog .blog_isi .blog_kiri .isi .foto .b_tgl:hover .tanggal {
+    color:olive;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan1 h2:hover {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kiri a:hover {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kiri .isi .tulisan .tulisan2 .tulisan_kanan a:hover {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kiri .next12 {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    margin: 10px auto auto auto;
+    width: 235px;
+}
+article .container_blog .blog_isi .blog_kiri .next12 a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+article .container_blog .blog_isi .blog_kiri .next12 a:hover {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kanan {
+    /*border: 1px solid blue;*/
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan {
+    background-color:azure;
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search {
+    width: 360px;
+    /*border: 1px solid red;*/
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search input {
+    width: 345px;
+    padding: 10px 0 10px 10px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search button {
+    width: 360px;
+    padding: 10px 0 10px 10px;
+    margin-top: 10px;
+    background-color: #1ec6b6;
+    border: none;
+    color: white;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search button:hover {
+    background-color: orangered;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .j_category {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6c757d;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .c1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c757d;
+    padding-top: 20px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .c1 a {
+    text-decoration: none;
+    color: gray;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .c1:hover a {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .u_foto .ft_kiri img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .u_foto {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .u_foto .ft_kanan {
+    width: 220px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .u_foto .ft_kanan a {
+    color: black;
+    text-decoration: none;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .u_foto .ft_kanan a:hover {
+    color: red;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .list {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .list a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .list a:hover {
+    color: white;
+    background-color: orangered;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .kiri  {
+    float: left;
+    margin-bottom: 10px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .kiri img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .tengah  {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .tengah img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .kanan  {
+    float: left;
+    margin-bottom: 10px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .ft_ig .kanan img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+/*
+article .container_blog .blog_isi .blog_kanan .isi_kanan {
+    background-color:azure;
+    padding: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search {
+    width: 360px;
+    border: 1px solid red;
+    display: block;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search input {
+    width: 345px;
+    padding: 10px 0 10px 10px;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search button {
+    width: 360px;
+    padding: 10px 0 10px 10px;
+    margin-top: 10px;
+    background-color: #1ec6b6;
+    border: none;
+    color: white;
+}
+article .container_blog .blog_isi .blog_kanan .isi_kanan .input_search button:hover {
+    background-color: orangered;
+}
+*/
+footer .foter {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 150px;
+}
+footer .foter .foter_dalam {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: black;
+}
+footer .foter .foter_dalam .dalam_1 {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 250px;
+    float: left;
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo {
+    height: 50px;
+    margin-bottom: 15px;
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo img{
+    width: 40px; 
+    height: 40px; 
+    margin: 0 0 0 0; 
+    float: left; 
+    clip-path: circle(50%);
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo h2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer .foter .foter_dalam .dalam_1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+    color: white;
+}
+footer .foter .foter_dalam .dalam_1 p a {
+    text-decoration: none;
+    color: white;
+}
+footer .foter_dalam .dalam_1 .social {
+    margin-top: 30px;
+    overflow: hidden;
+}
+footer .foter_dalam .dalam_1 .social .fb {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .fb img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .tw {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .tw img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .ig {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .ig img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .pint {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .pint img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .yt {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .yt img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter .foter_dalam .company {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .company .judul_com {
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+footer .foter .foter_dalam .company .judul_com h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .company p a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .popu_des {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .popu_des .judul_popu {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+footer .foter .foter_dalam .popu_des .judul_popu h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kiri {
+    float: left;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kiri a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kanan {
+    float: left;
+    margin-left: 50px;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kanan a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .instagram {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    width: 320px;
+}
+footer .foter .foter_dalam .instagram .judul_ig {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+footer .foter .foter_dalam .instagram .judul_ig h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kiri  {
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kiri img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .tengah  {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .tengah img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kanan  {
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kanan img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .dalam_1 p a:hover {
+    color: orangered;
+}
+footer .foter .foter_dalam .company p a:hover {
+    color: orangered;
+}
+footer .foter .foter_dalam .popu_des .negara  a:hover {
+    color: orangered;
+}
+footer .foter .copy {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+}
+footer .foter .copy a {
+    color: white;
+    text-decoration: none;
+}
+footer .foter .copy a:hover {
+    color: orangered;
+}

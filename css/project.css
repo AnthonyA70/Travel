@@ -1,0 +1,1001 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+menu {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+}
+menu .menukiri {
+    margin-left: 15px;
+}
+menu .menukiri img{
+    width: 40px; 
+    height: 40px; 
+    margin: 0 0 0 35px; 
+    float: left; 
+    clip-path: circle(50%);
+}
+menu .menukiri h2 {
+    display: inline; 
+    margin-top: 5px; 
+    float: left; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+Menu nav {
+    float: left; 
+    font-size: 20px; 
+    color: white; 
+    border-left: 1px solid red;;
+    margin-top: 0px; 
+    margin-left: 45px; 
+    position: relative; 
+    height: 50px; 
+    line-height: 50px;
+}
+menu nav ul li {
+    float: left; 
+    list-style: none; 
+    background: white;
+}
+menu nav ul li a:hover {
+    color: red;
+}
+menu nav ul li a {
+    margin-left: 15px; 
+    text-decoration: none; 
+    padding: 3px 15px; 
+    color: black;
+    font-size: 18px;
+}
+menu nav ul li ul {
+    display: none;
+}
+menu nav ul li:hover > ul {
+    display: block; 
+    background-color: white;
+}
+menu nav ul li ul {
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+}
+menu nav ul li ul li {
+    float: none;
+    position: relative;
+ }
+menu nav ul li ul li a:hover {
+    color: black;
+}
+menu nav ul ul ul {
+    left: 100%; 
+    top: 20px; 
+    width: 200px;
+}
+menu .menu_kanan {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    height: 52px;
+    line-height: 52px;
+    float: right;
+}
+menu .menu_kanan i {
+    margin-right: 10px;
+}
+menu .menu_kanan a  {
+    font-size: 18px;
+    margin-right: 50px;
+    padding-right: 50px;
+    /*border-right: 1px solid red;*/
+}
+menu .menu_kanan .menu_infol {
+    /*border: 1px solid black;*/
+}
+menu .menu_kanan .menu_infol .fi-sr-envelope {
+    padding-right: 50px;
+}
+menu .menu_kanan .menu_infol .fi-rr-search {
+    padding-left: 50px;
+    margin-right: 50px;
+    /*border-left: 1px solid red;*/
+}
+article .fi-ss-star {
+    color:goldenrod;
+}
+article .container {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/bali3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .container_foto {
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin:60px auto auto auto;
+}
+
+article .container_foto h1 {
+    text-align: center;
+    font-family: "Nothing You Could Do", cursive;
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+
+article .container_foto button[type=button] {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    padding: 15px;
+    width: 150px;
+    background-color: mediumaquamarine;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 50px;
+}
+article .container button[type=button] a {
+    text-decoration: none;
+    color: white;
+}
+article .container button[type=button]:hover {
+    background-color: red;
+}
+article .c2 {
+    width: 100%;
+    background-color: grey;
+    height: 130px;
+    background-color: midnightblue;
+}
+article .buatsearch {
+    width: 1100px;
+    margin: auto;
+    border: 1px solid midnightblue;
+}
+article .c2 .buatsearch .tujuan h2 {
+    color: white;
+}
+article .c2 .buatsearch .tujuan {
+    margin-top: 40px;
+    width: 280px;
+}
+article .c2 .buatsearch .src {
+    margin-left: 300px;
+    margin-top: -60px;
+}
+article .c2 .buatsearch .src .input {
+    width: 200px;
+    margin: 2px;
+    line-height: 26px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+}
+article .c2 .buatsearch .src .tanggal {
+    width: 200px;
+    margin: 2px;
+    line-height: 26px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: black;
+    border-radius: 10px;
+}
+article .c2 .buatsearch .src select {
+    width: 160px;
+    margin: 2px;
+    line-height: 30px;
+    padding: 12px;
+    padding-left: 10px;
+    border-radius: 10%;
+    color: grey;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+article .c2 .buatsearch .src button[type=button] {
+    padding: 15px;
+    width: 150px;
+    margin-top: 20px;
+    background-color:orangered;
+    border: none;
+    color: white;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+article .c2 .buatsearch .src button[type=button] a {
+    text-decoration: none;
+    color: white;
+}
+article .c2 .buatsearch .src button[type=button]:hover {
+    background-color: mediumaquamarine;
+    transition: background 0.5s ease-in-out;
+}
+article .c1 {
+    width: 100%;
+    background-color: white;
+    height: 930px;
+    margin-bottom: 150px;
+}
+.container1 {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 5px;
+}
+article .container1 .populer1 {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+article .container1 .populer1 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+article .container1 .populer1 .ket {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+}
+article .container1 .populer1 h4 {
+    text-align: center;
+    font-size: 20px;
+    color: dimgrey;
+}
+article .container1 .kolom {
+    margin-top: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+article .kolom .katas {
+	margin-top: 20px;
+	width: 300px;
+	overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 16px;
+}
+article .kolom .katas img {
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+article .kolom .katas p {
+	font-size: 20px;
+    width: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+article .kolom .katas a {
+    position: absolute;
+    width: 78px;
+    height: 25px;
+    background-color: mediumaquamarine;
+    left: 40%;
+    top: 82%;
+    text-align: center;
+    padding: 0 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+article .kolom .katas img:hover {
+    margin: 2px;
+}
+article .kolom .katas:hover p {
+    color:orangered;
+}
+article .kolom .katas:hover a {
+    background-color: orangered;
+}
+article .container1 .kolom1 {
+    background-color: white;
+    overflow: hidden;
+}
+article .kolom1 .ktengah {
+	margin-top: 20px;
+	width: 300px;
+	overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 16px;
+}
+article .kolom1 .ktengah img {
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+article .kolom1 .ktengah p {
+	font-size: 18px;
+    width: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+article .kolom1 .ktengah a {
+    position: absolute;
+    width: 78px;
+    height: 25px;
+    background-color: mediumaquamarine;
+    left: 40%;
+    top: 82%;
+    text-align: center;
+    padding: 0 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+article .kolom1 .ktengah img:hover {
+    margin: 2px;
+}
+article .kolom1 .ktengah:hover p {
+    color:orangered;
+}
+article .kolom1 .ktengah:hover a {
+    background-color: orangered;
+}
+article .container2 {
+    overflow: hidden;
+    width: 900px;
+    margin: auto;
+    height: 120px;
+}
+article .news {
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article .news .container2 .kiri {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+article .news .container2 .kiri h2 {
+    color: white;
+    font-size: 25px;
+}
+article .news .container2 .kiri p {
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+article .news .container2 .kanan {
+    margin-left: 400px;
+    margin-top: -65px;
+}
+article .news .container2 .kanan input {
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+}
+article .news .container2 .kanan input.inpt {
+    padding-left: 15px;
+}
+article .news .container2 .kanan button[type=button] {
+    background-color: orangered;
+    width: 120px;
+    margin-left: 20px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+article .news .container2 .kanan button[type=button] a {
+    text-decoration: none;
+    color: white;
+}
+article .news .container2 .kanan button[type=button]:hover {
+    background-color: mediumaquamarine;
+}
+article .c3 {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 1280px;
+}
+article .c3 .container3 {
+    width: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin-top: 5px;   
+}
+article .c3 .container3 .populer2 {
+    width: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+article .c3 .container3 .populer2 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+article .c3 .container3 .populer2 .ket1 {
+    background-color: whitesmoke;
+    width: 500px;
+    margin: auto;
+}
+article .c3 .container3 .populer2 h4 {
+    text-align: center;
+    font-size: 20px;
+    color: dimgrey;
+}
+article .c3 .container3 .place {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+article .c3 .container3 .place .patas {
+	margin-top: 20px;
+	width: 300px;
+	overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 16px;
+    background-color: white;
+}
+article .c3 .container3 .place .patas img {
+	width: 330px;
+	height: 230px;
+	float: left;
+	margin-right: 5px;
+    position: relative;
+    margin-top: 20px;
+}
+article .c3 .container3 .place .patas .infop p {
+	font-size: 20px;
+    color: grey;
+    margin-bottom: 5px;
+}
+article .c3 .container3 .place .patas .fto a {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: mediumaquamarine;
+    left: 10%;
+    top: 15%;
+    text-align: center;
+    padding: 0 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+article .c3 .container3 .place .patas .infop {
+    /*border: 1px solid black;*/
+    padding-left: 10px;
+}
+article .c3 .container3 .place .infop a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+article .c3 .container3 .place .patas:hover a {
+    background-color: orangered;
+}
+article .c3 .container3 .place .patas:hover a h3 {
+    color: orangered;
+}
+article .c3 .container3 .more {
+    width: 150px;
+    margin: 60px auto auto auto;
+}
+article .c3 .container3 .more button[type=button] {
+    padding: 15px;
+    width: 150px;
+    margin-top: 20px;
+    background-color:orangered;
+    border: none;
+    color: white;
+    height: 55px;
+    border-radius: 10px;
+}
+article .c3 .container3 .more a {
+    text-decoration: none;
+    color: white;
+}
+article .c3 .container3 .more button[type=button]:hover {
+    background-color: mediumaquamarine;
+}
+article .c_video {
+    width: 100%;
+    background-color: yellow;
+    height: 550px;
+    background-image: url(../images/h4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article .t_vid {
+    width: 500px;
+    position: absolute;
+    top: 3540px;
+    margin: 80px auto auto auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+article .c_video .t_vid .tlsan_video h3{
+    font-size: 50px;
+    font-family:serif;
+    text-align: center;
+    margin-bottom: 60px;
+    color: black;
+    overflow: hidden;
+}
+article .c_video .t_vid .icon img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+}
+article .c_video .t_vid .icon {
+    width: 60px;
+    margin: auto;
+    overflow: hidden;
+}
+article .komponen {
+    width: 100%;
+    background-color: white;
+}
+article .komponen .Journey {
+    width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+article .komponen .Journey .kiri {
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+}
+article .komponen .Journey .kiri p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+article .komponen .Journey .kiri img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+article .komponen .Journey .kiri h3 {
+    font-size: 22px;
+    text-align: center;
+}
+article .komponen .Journey .tengah {
+    float: left;
+}
+article .komponen .Journey .tengah {
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+article .komponen .Journey .tengah p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+article .komponen .Journey .tengah img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+article .komponen .Journey .tengah h3 {
+    font-size: 22px;
+    text-align: center;
+}
+article .komponen .Journey .kanan {
+    width: 300px;
+    float: left;
+}
+article .komponen .Journey .kanan p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+article .komponen .Journey .kanan img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+article .komponen .Journey .kanan h3 {
+    font-size: 22px;
+    text-align: center;
+}
+article .kata_kata {
+    width: 100%;
+    background-color: #f7fafd;
+    margin-top: 200px;
+}
+article .kolom_kata {
+    width: 700px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+article .kata_kata .kolom_kata img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin: auto;
+}
+article .kata_kata .kolom_kata .ft_prof {
+    width: 100px;
+    margin: auto;
+}
+article .kata_kata .kolom_kata .kta {
+    margin-top: 25px;
+}
+article .kata_kata .kolom_kata .kta p {
+    font-size: 25px;
+    text-align: center;
+}
+article .kata_kata .kolom_kata .nama {
+    margin-top: 10px;
+}
+article .kata_kata .kolom_kata .nama p {
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+article .recent {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 50px;
+}
+article .recent .trip {
+    width: 1000px;
+    margin: auto;
+}
+article .recent .trip .re_trip {
+    padding-top: 50px;
+}
+article .recent .trip .re_trip h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article .recent .trip .re_ft {
+    width: 1000px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+article .recent .trip .re_ft .kiri {
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+}
+article .recent .trip .re_ft .kiri img {
+    width: 300px;
+    border-radius: 10px;
+}
+article .recent .trip .re_ft .kiri p {
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 5px;
+}
+article .recent .trip .re_ft .kiri a, h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+article .recent .trip .re_ft .kiri:hover a h3 {
+    color: orangered;
+}
+article .recent .trip .re_ft .tengah {
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+article .recent .trip .re_ft .tengah img {
+    width: 300px;
+    border-radius: 10px;
+}
+article .recent .trip .re_ft .tengah p {
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 5px;
+}
+article .recent .trip .re_ft .tengah a, h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+article .recent .trip .re_ft .tengah:hover a h3 {
+    color: orangered;
+}
+article .recent .trip .re_ft .kanan {
+    width: 300px;
+    float: left;
+}
+article .recent .trip .re_ft .kanan img {
+    width: 300px;
+    border-radius: 10px;
+}
+article .recent .trip .re_ft .kanan p {
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 5px;
+}
+article .recent .trip .re_ft .kanan a, h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+article .recent .trip .re_ft .kanan:hover a h3 {
+    color: orangered;
+}
+footer .foter {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 150px;
+}
+footer .foter .foter_dalam {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: black;
+}
+footer .foter .foter_dalam .dalam_1 {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 250px;
+    float: left;
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo {
+    height: 50px;
+    margin-bottom: 15px;
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo img{
+    width: 40px; 
+    height: 40px; 
+    margin: 0 0 0 0; 
+    float: left; 
+    clip-path: circle(50%);
+}
+footer .foter .foter_dalam .dalam_1 .dalam_logo h2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer .foter .foter_dalam .dalam_1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+    color: white;
+}
+footer .foter .foter_dalam .dalam_1 p a {
+    text-decoration: none;
+    color: white;
+}
+footer .foter_dalam .dalam_1 .social {
+    margin-top: 30px;
+    overflow: hidden;
+}
+footer .foter_dalam .dalam_1 .social .fb {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .fb img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .tw {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .tw img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .ig {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .ig img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .pint {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .pint img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter_dalam .dalam_1 .social .yt {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+footer .foter_dalam .dalam_1 .social .yt img {
+    width: 20px;
+    height: 20px;
+}
+footer .foter .foter_dalam .company {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .company .judul_com {
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+footer .foter .foter_dalam .company .judul_com h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .company p a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .popu_des {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .popu_des .judul_popu {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+footer .foter .foter_dalam .popu_des .judul_popu h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kiri {
+    float: left;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kiri a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kanan {
+    float: left;
+    margin-left: 50px;
+}
+footer .foter .foter_dalam .popu_des .negara .n_kanan a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .foter .foter_dalam .instagram {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    width: 320px;
+}
+footer .foter .foter_dalam .instagram .judul_ig {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+footer .foter .foter_dalam .instagram .judul_ig h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kiri  {
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kiri img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .tengah  {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .tengah img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kanan  {
+    float: left;
+    margin-bottom: 10px;
+}
+footer .foter .foter_dalam .instagram .ft_ig .kanan img {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer .foter .foter_dalam .dalam_1 p a:hover {
+    color: orangered;
+}
+footer .foter .foter_dalam .company p a:hover {
+    color: orangered;
+}
+footer .foter .foter_dalam .popu_des .negara  a:hover {
+    color: orangered;
+}
+footer .foter .copy {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+}
+footer .foter .copy a {
+    color: white;
+    text-decoration: none;
+}
+footer .foter .copy a:hover {
+    color: orangered;
+}
